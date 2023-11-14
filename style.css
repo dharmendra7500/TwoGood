@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:#f7f7f7;
+    color: #000;
+}
+#nav{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      
+}
+#nav svg{
+    margin: 20px 40px;
+}
+#right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-right: 30px;
+}
+#right #links a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    gap: 40px;
+    
+}
+#right #icons i{
+    margin-right: 20px;
+   gap: 40px;
+}
+#main{
+    width: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    margin: 0 20px;
+
+}
+#page1 h1{
+    font-size: 15vw;
+    text-transform: uppercase;
+    font-weight: 15vw;
+    line-height: 8vw;
+    letter-spacing: -12px;
+    margin-top: 12vh;
+}
+#page1 .had{
+    margin-left: 15vw;
+}
+#imagecontainer{
+    width: 100vw;
+   /* display: flex; */
+   justify-content: center;
+   align-items: center;
+  
+}
+#imagecontainer img{
+    width: 100%;
+    height: 100%;
+    margin-top: -20vh;
+}
+#text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+}
+#text h4{
+    border: 2px solid #000;
+}
+#boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 30%;
+    height: 100vh;
+    padding: 2vw 1vw;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.dets{
+    width: 80%;
+    height: 50px;
+    background-color: #f7f7f7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    position: absolute;
+    border-radius: 20px;
+    
+
+}
+
+.para{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-right: 70px;
+}
+.dets:hover{
+    height: 250px;
+}
+.txt:hover{
+    opacity: 1;
+}
+.txt{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-between;
+    opacity: 0;
+    padding: 20px ;
+}
+#page2{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+}
+#elem1{
+    width: 50%;
+    font-size: 1.8vw;
+}
+#elem2{
+    width: 40%;
+    padding-right: 100px;
+    
+
+}
+#elem2 p{
+    margin-block: 30px;
+}
+.btn{
+   
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+#play{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(183, 202, 202);
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+    position: absolute;
+    transition: all linear 0.2s;
+}
+#page3{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    
+
+}
+.elem{
+    width: 500px;
+    height: 500px;
+    margin: 0 50px;
+    z-index: 9;
+}
+.elem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.para{
+          margin-left: 100px;
+          margin-bottom: 40px;
+}
+
+#page4{
+    display: flex;
+    justify-content: space-between;
+     margin-top: 100px;
+     padding: 0 20px;
+}
+#line{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    
+}
+#page5{
+    display: flex;
+    justify-content:center;
+    padding: 40px 200px;
+    
+
+}
+#page5 h1{
+    font-size: 5vw;
+    align-content: flex-start
+    ;
+}
+#page6{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.bat{
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #f7f7f7;
+    font-size: 1.5vw;
+    margin-bottom: 345px;
+    position: absolute;
+    cursor: pointer;
+
+    
+}
+#batan{
+    width: 335px;
+    height: 300px;
+    background-color: #000;
+    color: #f7f7f7;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    opacity: 0;
+   
+}
+#name{
+    width: 220px;
+    height: 25px;
+    margin-block: 10px;
+    background-color: #000;
+    color: #f7f7f7;
+    border: none;
+}
+#message{
+    margin-block: 10px;
+    background-color: #000;
+    color: #f7f7f7;
+    border: none;
+
+}
+
